@@ -1,0 +1,94 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 675.5754125132944,
+            "y": 214.67075136582537
+          },
+          "nodeIndex": "_Olcular",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 155.72763251111769,
+            "y": 154.33820509065777
+          },
+          "nodeIndex": "DimUlke",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 441.52261390493635,
+            "y": 291.10572475177548
+          },
+          "nodeIndex": "DimYil",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 383.34150273165068
+          },
+          "nodeIndex": "FactKalkinma",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 441.5754125132944,
+            "y": 504.18375854565244
+          },
+          "nodeIndex": "FactModel",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 244.62858697659016,
+            "y": -50
+          },
+          "nodeIndex": "FactYatirim",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Tüm tablolar",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Tüm tablolar",
+  "defaultDiagram": "Tüm tablolar"
+}
