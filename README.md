@@ -1,1 +1,0 @@
-# Yapay_Zeka_Ekosistemi_Analizi
