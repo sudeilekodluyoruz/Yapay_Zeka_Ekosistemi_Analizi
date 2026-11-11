@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "5e60374506b22df49025",
+  "position": {
+    "x": 24,
+    "y": 46,
+    "z": 5,
+    "height": 24,
+    "width": 1200,
+    "tabOrder": 5
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Özel yapay zekâ yatırımı (CSET) · Büyük ölçekli modeller (Epoch AI) · Dünya Bankası göstergeleri · 2016–2025",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#6B6785"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

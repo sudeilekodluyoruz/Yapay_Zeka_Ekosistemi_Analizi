@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "0c0b3040726738df18e6",
+  "position": {
+    "x": 24,
+    "y": 46,
+    "z": 5,
+    "height": 24,
+    "width": 1200,
+    "tabOrder": 5
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Ar-Ge ve gelir düzeyi yüksek ülkelerde yapay zekâ yatırımı daha yüksek mi? Yıl seç, ülkeleri karşılaştır · Eksenler logaritmik",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#6B6785"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

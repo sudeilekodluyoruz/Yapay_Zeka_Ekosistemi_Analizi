@@ -1,0 +1,36 @@
+table FactModel
+
+	column ISO3
+		dataType: string
+		summarizeBy: none
+		sourceColumn: ISO3
+
+	column Yil
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: Yil
+
+	column BuyukModelKumulatif
+		dataType: int64
+		formatString: #,0
+		summarizeBy: none
+		sourceColumn: BuyukModelKumulatif
+
+	partition FactModel = m
+		mode: import
+		source =
+			let
+			    Ikili = Binary.Decompress(
+				Binary.FromText(
+					"RdI9T8MwEAbg3b/FQ/yltqNT2iQEmshRBkYkQKoIYiED/5738J29PbEu78V3GZbJ6Zf7ptv9d/98/n5738b9a99ef+4fKqaLto112gm9PgiDPqq4LvnUCAPYdkl4jrecYIVeB2FA2LnnMBT0/6cG3ZiWantOCOUY7UwpR5eTVw+XNb9gha7SI5EZtFfXgRON0KOWSR9yTVHCmA5fykTzYhQ3qmvptuaEuEzbVBpkMC1aM3EZoccUmTTQfuxyrRHS8Jk0OiaNbli4hRHaSnqN6dGYSdd/nG9SwPT1lArGKckemLYSUzNijKJUYw1HNU9PsviUfwdbSQtJ8r84ITVc4ipbYNIWlm6WNTF9JRWsY/nN1iXmwVuhQS4TezyIschyjrgQ5AGB1qg/",
+				BinaryEncoding.Base64), Compression.Deflate),
+			    Csv = Csv.Document(Ikili, [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+			    Baslik = Table.PromoteHeaders(Csv, [PromoteAllScalars=true]),
+			    Tip = Table.TransformColumnTypes(Baslik, {
+					{"ISO3", type text},
+					{"Yil", Int64.Type},
+					{"BuyukModelKumulatif", Int64.Type}
+				}, "en-US")
+			in
+			    Tip

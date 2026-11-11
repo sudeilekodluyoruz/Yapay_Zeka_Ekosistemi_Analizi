@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "0a73edeb667e1039fd9e",
+  "position": {
+    "x": 24,
+    "y": 46,
+    "z": 5,
+    "height": 24,
+    "width": 1200,
+    "tabOrder": 5
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Ülke büyüklüğünden arındırılmış (nüfusa oranlanmış) yatırım · Kişi başı yatırım = yatırım / nüfus (yatırım kaydı olan yıllar)",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#6B6785"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

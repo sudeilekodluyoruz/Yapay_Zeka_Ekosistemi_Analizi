@@ -1,0 +1,12 @@
+model Model
+	culture: tr-TR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: en-US
+
+ref table FactYatirim
+ref table FactModel
+ref table FactKalkinma
+ref table DimUlke
+ref table DimYil
+ref table _Olcular
